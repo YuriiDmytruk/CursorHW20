@@ -52,7 +52,7 @@ function Contacts() {
         </div>
         <div className="contacts">
           {state.contacts.map((e) => (
-            <Contact contact={e} />
+            <Contact key={e.firstName} contact={e} />
           ))}
         </div>
       </div>

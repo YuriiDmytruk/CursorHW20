@@ -9,6 +9,7 @@ import Home from "./Components/Home.js";
 import Publications from "./Components/Publications/Publications.js";
 import Galery from "./Components/Galery/Galery.js";
 import Contacts from "./Components/Contacts/Contacts.js";
+import User from "./Components/User.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,14 +21,8 @@ root.render(
         <Route path="/publication" element={<Publications />} />
         <Route path="/galery" element={<Galery />} />
         <Route path="/contacts" element={<Contacts />} />
+        <Route path="/contacts/:username" element={<User />} />
       </Routes>
     </div>
   </BrowserRouter>
 );
-
-/* 
-<HashRouter>
-      
-      
-    </HashRouter>
-*/
