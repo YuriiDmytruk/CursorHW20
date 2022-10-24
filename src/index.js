@@ -1,11 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import Navigation from "./Components/Navigation.js";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+
+import Home from "./Components/Home.js";
+import Publications from "./Components/Publications/Publications.js";
+import Galery from "./Components/Galery/Galery.js";
+import Contacts from "./Components/Contacts/Contacts.js";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter>
+    <Navigation />
+    <div className="content">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/publication" element={<Publications />} />
+        <Route path="/galery" element={<Galery />} />
+        <Route path="/contacts" element={<Contacts />} />
+      </Routes>
+    </div>
+  </BrowserRouter>
 );
 
-
+/* 
+<HashRouter>
+      
+      
+    </HashRouter>
+*/
