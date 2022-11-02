@@ -13,6 +13,7 @@ import User from "./Components/User.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  <div>
   <BrowserRouter>
     <Navigation />
     <div className="content">
@@ -22,7 +23,9 @@ root.render(
         <Route path="/galery" element={<Galery />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/contacts/:username" element={<User />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </div>
   </BrowserRouter>
+  </div>
 );
