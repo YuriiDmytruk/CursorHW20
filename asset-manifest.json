@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CursorHW20/static/css/main.577d5649.css",
-    "main.js": "/CursorHW20/static/js/main.5a0c47c0.js",
+    "main.js": "/CursorHW20/static/js/main.fddf8013.js",
     "static/media/Ukraine.png": "/CursorHW20/static/media/Ukraine.e12ef3ebcd61d85f9b77.png",
     "static/media/forest.jpg": "/CursorHW20/static/media/forest.0e9b5bba4961ab36c436.jpg",
     "static/media/mountains.jpg": "/CursorHW20/static/media/mountains.1acaba2e5b3531acb37d.jpg",
@@ -9,10 +9,10 @@
     "static/media/tree.jpg": "/CursorHW20/static/media/tree.88c826693843cb00e0de.jpg",
     "index.html": "/CursorHW20/index.html",
     "main.577d5649.css.map": "/CursorHW20/static/css/main.577d5649.css.map",
-    "main.5a0c47c0.js.map": "/CursorHW20/static/js/main.5a0c47c0.js.map"
+    "main.fddf8013.js.map": "/CursorHW20/static/js/main.fddf8013.js.map"
   },
   "entrypoints": [
     "static/css/main.577d5649.css",
-    "static/js/main.5a0c47c0.js"
+    "static/js/main.fddf8013.js"
   ]
 }
