@@ -1,4 +1,4 @@
-import "../../Styles/Contact.css";
+import "./styles/Contact.css";
 import {NavLink} from "react-router-dom";
 
 function Contact(props) {

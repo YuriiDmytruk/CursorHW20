@@ -1,4 +1,4 @@
-import Ukraine from "../Pictures/Home/Ukraine.png"
+import Ukraine from "../../pictures/home/Ukraine.png"
 
 function Home() {
   return (

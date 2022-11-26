@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "../../Styles/Contacts.css";
-import Contact from "./Contact.js";
-import contacts from "./Util/Data.js";
-import filter from "./Util/Filter.js";
+import "./styles/Contacts.css";
+import Contact from "./Contact";
+import contacts from "./util/Data.js";
+import filter from "./util/Filter.js";
 
 function Contacts() {
   const [state, SetContacts] = useState({

@@ -1,19 +1,18 @@
-import Navigation from "./Components/Navigation.js";
-
 import React from "react";
-import ReactDOM from "react-dom/client";
 
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 
-import Home from "./Components/Home.js";
-import Publications from "./Components/Publications/Publications.js";
-import Galery from "./Components/Galery/Galery.js";
-import Contacts from "./Components/Contacts/Contacts.js";
-import User from "./Components/User.js";
+import Navigation from "../navigation/Navigation";
+import Home from "../home/Home";
+import Publications from "../publications/Publications";
+import Galery from "../galery/Galery";
+import Contacts from "../contacts/Contacts";
+import User from "../user/User";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <div>
+
+function App() {
+    return (
+        <div>
   <BrowserRouter>
     <Navigation />
     <div className="content">
@@ -28,4 +27,7 @@ root.render(
     </div>
   </BrowserRouter>
   </div>
-);
+    );
+  }
+  
+  export default App;
